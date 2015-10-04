@@ -1,0 +1,26 @@
+{
+  "name": "Lenovo - 21.5' All-In-One - AMD A4-Series - 4GB Memory - 500GB Hard Drive - Black",
+  "price": "429.99",
+  "description": "Experience efficiency with this Lenovo C40 - F0B5000GUS 21.5' all-in-one computer, which features built-in wireless networking and 4GB DDR3L SDRAM. The 21.5' high-definition display delivers sharp visuals.",
+  "specifications": [
+    {
+
+    }
+  ],
+  "images": [
+    {
+
+    }
+  ],
+  "reviews": [ 
+    { 
+    "stars": "5", 
+    "body": "I love this product!",  
+    "author": "joe@thomas.com" 
+    },  { 
+    "stars": "1", 
+    "body": "This product sucks",  
+    "author": "tim@hater.com" 
+    } 
+  ]
+}

@@ -1,0 +1,44 @@
+[ 
+  {
+   "id": "hp-1945",
+   "title": "HP - 19.45' All-In-One - AMD E1-Series - 4GB Memory - 500GB Hard Drive - Black/Aluminum",
+   "image": "images/computers/1.jpg",
+   "specs": [
+    {
+      "system": "Windows 8.1, upgrade to Windows 10 for free",
+      "details": "Technical details: AMD E1-Series processor; 19.45' display; ",
+      "features": "Special features: Built-in wireless networking; webcam"
+    }
+   ],
+   "price": "399.99",
+   "age": "3"
+  },
+  {
+   "id": "dell-238",
+   "title": "Dell - Inspiron 23.8' Touch-Screen All-In-One - AMD A8-Series - 8GB Memory - 1TB Hard Drive - White/Silver",
+   "image": "images/computers/2.jpg",
+   "specs": [
+    {
+      "system": "Windows 10",
+      "details": "Technical details: AMD A8-Series processor; 23.8' display; 8GB memory; 1TB hard drive",
+      "features": "Special features: Touch screen; built-in wireless networking; Bluetooth;"
+    }
+   ],
+   "price": "649.99",
+   "age": "2"
+  },
+  {
+   "id": "lenovo-215",
+   "title": "Lenovo - 21.5 All-In-One - AMD A4-Series - 4GB Memory - 500GB Hard Drive - Black",
+   "image": "images/computers/3.jpg",
+   "specs": [
+    {
+      "system": "Windows 8.1, upgrade to Windows 10 for free",
+      "details": "Technical details: AMD A4-Series processor; 21.5' display; 4GB memory; 500GB hard drive",
+      "features": "Special features: Built-in wireless networking; Bluetooth 4.0; HDMI output"
+    }
+   ],
+   "price": "429.99",
+   "age": "1"
+  }
+]

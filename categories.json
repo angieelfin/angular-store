@@ -1,0 +1,38 @@
+[
+  {
+    "id": "computer",
+    "name": "Computer",
+    "iconName": "monitor",
+    "img": "images/computer.jpg"
+  },
+  {
+    "id": "laptop",
+    "name": "Laptop",
+    "iconName": "laptop",
+    "img": "images/laptop.jpg"
+  },
+  {
+    "id": "tablet",
+    "name": "Tablet",
+    "iconName": "tablet",
+    "img": "images/tablet.jpg"
+  },
+  {
+    "id": "smartphone",
+    "name": "Smartphone",
+    "iconName": "mobile",
+    "img": "images/phone.jpg"
+  },
+  {
+    "id": "headphones",
+    "name": "Headphones",
+    "iconName": "headphones",
+    "img": "images/headphones.jpg"
+  },
+  {
+    "id": "gameconsole",
+    "name": "Game console",
+    "iconName": "gamepad",
+    "img": "images/console.jpg"
+  }
+]

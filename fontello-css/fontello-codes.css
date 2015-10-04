@@ -1,0 +1,9 @@
+
+.icon-mobile:before { content: '\e800'; } /* '' */
+.icon-basket:before { content: '\e801'; } /* '' */
+.icon-tablet:before { content: '\e802'; } /* '' */
+.icon-laptop:before { content: '\e803'; } /* '' */
+.icon-headphones:before { content: '\e804'; } /* '' */
+.icon-gamepad:before { content: '\e805'; } /* '' */
+.icon-monitor:before { content: '\e806'; } /* '' */
+.icon-search-1:before { content: '\e807'; } /* '' */

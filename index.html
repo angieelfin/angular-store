@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angular - store app</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="fontello-css/fontello.css" />
+    <link rel="stylesheet" href="fontello-css/fontello-codes.css" />
+    <link rel="stylesheet" href="fontello-css/fontello-embedded.css" />
+    <link href='https://fonts.googleapis.com/css?family=Bree+Serif|Lato:400,400italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body  ng-controller="CategoryListCtrl">
+    <div class="header">
+      <a href="#/categories" class="logo">Angular Shop</a>
+      <div class="header-bar">
+        <a href="">Login</a>
+        |
+        <a href="">Sign up</a>
+      </div>
+    </div>
+    <div class="side-panel"></div>
+      <aside class="small-12 medium-3 columns">
+        <a href="#/categories" class="aside-title">Categories</a>
+        <div class="search-box">
+          <span class="icon-search-1"></span>
+          <input ng-model="query" class="search-input" type="text" placeholder="search category...">
+        </div>
+        <ul class="side-nav">
+          <li ng-repeat="category in categories | filter:query">
+            <span class="icon-{{category.iconName}} category-icon"></span>
+            <a ng-click="$parent.active=category.name" class="category-link" href="#/categories/{{category.id}}">{{category.name}}</a>
+          </li>
+        </ul>
+      </aside>
+    
+    <div class="medium-9 columns">
+        <div ng-view></div>
+    </div>
+    
+  <div class="large-12 columns footer-container">
+      <div class="medium-4 columns">
+        <a class="logo footer-logo">Angular Shop</a>
+        <a href="">Company Info</a>
+        <a href="">Registration</a>
+        <a href="">Stores</a>
+         <p class="brand-color">All images & data used to build this applications come from:
+          <a href="http://www.bestbuy.com/">bestbuy.com</a>
+        </p>
+      </div>
+      <div class="medium-4 columns">
+        <a href="">Start Selling</a>
+        <a href="">Careers</a>
+        <a href="">News</a>
+        <a href="">Money Back Guarantee</a>
+        <a href="">Policies</a>
+      </div>
+      <div class="medium-4 columns">
+        <a href="">Facebook</a>
+        <a href="">Twitter</a>
+        <a href="">Google+</a>
+
+        <p class="newsletter-info brand-color">Sign up to our Newsletter!</p>
+        <div class="newsletter-container">
+          <input class="newsletter-input" type="text" placeholder="youremail@gmail.com">
+          <a class="btn-newsletter"href="">SignUp</a>
+        </div>
+      </div>
+    </div>
+  
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/controllers.js"></script>   
+  </body>
+</html>

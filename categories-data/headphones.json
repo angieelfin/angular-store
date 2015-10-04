@@ -1,0 +1,44 @@
+[ 
+  {
+   "id": "sony-ex-black",
+   "title": "Sony - EX Series Earbud Headphones - Black",
+   "image": "images/headphones/1.jpg",
+   "specs": [
+    {
+      "system": "9mm dome-type drivers;",
+      "details": "high-energy neodymium magnets",
+      "features": " multifunction control button"
+    }
+   ],
+   "price": "19.99",
+   "age": "3"
+  },
+  {
+   "id": "sony-zx-black",
+   "title": "Sony - ZX Series On-Ear Headphones - Black",
+   "image": "images/headphones/2.jpg",
+   "specs": [
+    {
+      "system": "Acoustic Bass Booster technology",
+      "details": " 30mm drivers",
+      "features": "neodymium magnets"
+    }
+   ],
+   "price": "19.99",
+   "age": "2"
+  },
+  {
+   "id": "lg-tone-silver",
+   "title": "LG - Tone Infinim Wireless Earbud Headphones - Metallic Silver",
+   "image": "images/headphones/3.jpg",
+   "specs": [
+    {
+      "system": "Compatible with most Bluetooth 3.0-enabled devices",
+      "details": "Harman Kardon Signature Sound and Tone & Talk technologies",
+      "features": "etractable earbuds with wire management"
+    }
+   ],
+   "price": "85.99",
+   "age": "1"
+  }
+]

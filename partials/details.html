@@ -1,0 +1,33 @@
+<div class="product-details-container">
+  <div class="product-images">
+    <img class="main-image" src="http://fillmurray.com/600/400" alt="">
+    <div class="thumbnails">
+      <img src="http://fillmurray.com/100/100" alt="" class="thumbnail">
+      <img src="http://fillmurray.com/100/100" alt="" class="thumbnail">
+      <img src="http://fillmurray.com/100/100" alt="" class="thumbnail">
+    </div>
+  </div>
+  <div class="product-details" ng-init="tab = 1">
+    <h2>{{detail.name}}</h2>
+    <h4>fsffs</h4>
+    <a href="" class="button buy-button">buy now!</a>
+    <a class="add-to-cart" href=""><span class="icon-basket"><span/>Add to cart</a>
+    <ul class="tabs" data-tab>
+      <li ng-class="{ active:tab === 1 }"class="tab-title"><a ng-click="tab=1">Description</a></li>
+      <li ng-class="{ active:tab === 2 }"class="tab-title"><a ng-click="tab=2">Specifications</a></li>
+      <li ng-class="{ active:tab === 3 }"class="tab-title"><a ng-click="tab=3">Reviews</a></li>
+    </ul>
+    <div class="panel" ng-show="tab === 1">
+      <h5>Description</h5>
+      <p>It hastyle, and is appropriately subdued.</p>
+    </div>
+    <div class="panel" ng-show="tab === 2">
+      <h5>Specifications</h5>
+      <p>It has an easy to override visual style, and is appropriately subdued.</p>
+    </div>
+    <div class="panel" ng-show="tab === 3">
+      <h5>Reviews</h5>
+      <p>It has an easy to overand is appropriately subdued.</p>
+    </div>
+  </div>
+</div>

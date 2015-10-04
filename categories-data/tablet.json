@@ -1,0 +1,86 @@
+[ 
+  {
+   "id": "samsung-galtab-8",
+   "title": "Samsung - Galaxy Tab A - 8' - 16GB - Smoky Titanium",
+   "image": "images/tablets/1.jpg",
+   "specs": [
+    {
+      "system": "Android 5.0 Lollipop operating system",
+      "details": "8' TFT touch screen with XGA (1024 x 768) resolution",
+      "features": "16GB storage capacity"
+    }
+   ],
+   "price": "229.99",
+   "age": "3"
+  },
+  {
+   "id": "samsung-galtab-4",
+   "title": "Samsung - Galaxy Tab 4 - 7' - 8GB - Black",
+   "image": "images/tablets/2.jpg",
+   "specs": [
+    {
+      "system": "Android 4.4 KitKat operating system",
+      "details": "7' touch screen with 1280 x 800 resolution",
+      "features": "8GB storage capacity"
+    }
+   ],
+   "price": "179.99",
+   "age": "2"
+  },
+  {
+   "id": "apple-ipad-mini2",
+   "title": "Apple - iPad® mini 2 with Wi-Fi - 16GB - Silver",
+   "image": "images/tablets/3.jpg",
+   "specs": [
+    {
+      "system": "Apple iOS 7",
+      "details": "7.9' Retina Display with 2048 x 1536 resolution",
+      "features": "16GB storage capacity"
+    }
+   ],
+   "price": "269.99",
+   "age": "1"
+  },
+  {
+   "id": "apple-ipad-air2",
+   "title": "Apple - iPad Air 2 Wi-Fi 64GB - Space Gray",
+   "image": "images/tablets/4.jpg",
+   "specs": [
+    {
+      "system": "Apple iOS 8.1",
+      "details": "7.9' Retina Display",
+      "features": "64GB storage capacity"
+    }
+   ],
+   "price": "599.99",
+   "age": "4"
+  },
+  {
+   "id": "samsung-galtab-8-white",
+   "title": "Samsung - Galaxy Tab A - 8' - 16GB - White",
+   "image": "images/tablets/5.jpg",
+   "specs": [
+    {
+      "system": "Android 5.0 Lollipop operating system",
+      "details": "8' TFT touch screen with XGA (1024 x 768) resolution",
+      "features": "16GB storage capacity"
+    }
+   ],
+   "price": "229.99",
+   "age": "5"
+  },
+  {
+    "id": "miscrosoft-surfpro3",
+   "title": "Microsoft - Surface Pro 3 - 12' - Intel Core i3 - 64GB - Silver",
+   "image": "images/tablets/6.jpg",
+   "specs": [
+    {
+      "system": "Windows 10",
+      "details": "12' touch screen with 2160 x 1440 resolution",
+      "features": "64GB storage capacity"
+    }
+   ],
+   "price": "699.99",
+   "age": "6"
+  }
+]

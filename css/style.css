@@ -1,0 +1,299 @@
+body {
+  font-family: 'Lato';
+  letter-spacing: 1px;
+}
+
+/*header styling*/
+.header {
+  background: #424242;
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-bar a {
+  color: #00ccbe;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.header-bar a:hover {
+  color: #00bcac;
+}
+
+.logo,
+.logo:visited {
+  display: block;
+  font-family: 'Bree Serif', serif;
+  font-size: 25px;
+  margin: 0;
+  padding: 10px;
+  color: white;
+  transition: all .2s ease;
+}
+
+.logo:hover {
+  color: #00ccbe;
+  transition: all .2s ease;
+}
+/*header styling*/
+
+/*side-nav styling*/
+.side-panel {
+  background-color: #00ccbe;
+  height: 300%;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+aside {
+  background: #00ccbe;
+  height: 150%;
+  padding: 0 !important;
+}
+
+.side-nav li {
+  display: flex;
+  align-items: center;
+  margin: 0 10px !important;
+}
+
+.side-nav li:hover {
+  background: #424242;
+  transition: all .2s ease;
+}
+
+.side-nav li:hover > .category-icon {
+  color: #00ccbe;
+}
+
+.aside-title,
+.aside-title:visited {
+  display: block;
+  color: #424242;
+  padding: 20px;
+  font-family: 'Lato';
+  font-size: 25px;
+}
+
+.category-link {
+  font-family: 'Lato';
+  font-size: 18px;
+  color: white !important;
+  padding: 15px !important;
+  transition: all .2s ease;
+}
+.category-link:focus {
+  color: #0091a3 !important;
+  background: none !important;
+}
+
+.category-icon {
+  font-size: 20px;
+  color: #424242;
+  padding-left: 10px;
+}
+
+.search-box {
+  display: flex;
+  align-items: baseline;
+  color: white;
+}
+
+.search-input[type=text],
+.search-input[type=text]:focus {
+  max-width: 70%;
+  border: 0;
+  border-bottom: 2px solid white;
+  box-shadow: none;
+}
+
+.icon-search-1 {
+  padding: 10px;
+}
+/*side-nav styling*/
+
+
+.category-container {
+  margin: 20px 0;
+}
+
+.category-thumb {
+  border: 1px solid lightgrey;
+}
+
+/*footer styling*/
+.footer-container {
+  
+  bottom: 0;
+  background-color: #424242;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-container a {
+  color: grey;
+  display: block;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.footer-container a:hover {
+  color: #00ccbe;
+}
+
+.logo.footer-logo {
+  font-size: 20px;
+}
+
+.brand-color {
+  color: #00ccbe;
+  margin-bottom: 10px;
+}
+
+.newsletter-container {
+  display: flex;
+  max-width: 70%;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.newsletter-input[type=text],
+.newsletter-input[type=text]:focus {
+  border: 0;
+  box-shadow: none;
+  height: 40px;
+  width: 550px;
+}
+
+a.btn-newsletter {
+  font-family: 'Bree Serif';
+  background: #00ccbe;
+  color: #424242;
+  width: 100%;
+  transition: all .3s ease;
+
+}
+
+a.btn-newsletter:hover {
+  background: #00bcac;
+  color: #424242;
+  transition: all .3s ease;
+}
+/*footer styling*/
+
+/*product list*/
+.product-container {
+  border: 1px solid lightgrey;
+  margin: 10px 0;
+  position: relative;
+  display: flex;
+}
+
+.select-product,
+.select-product:focus {
+  margin-top: 5px;
+  outline: none;
+}
+
+.product-thumb {
+  float: left;
+  width: 200px;
+  padding: 20px;
+}
+
+.product-title {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 60%;
+}
+
+.description {
+  margin-top: 30px;
+}
+.specifications {
+  max-width: 70%;
+  font-size: 13px;
+}
+.block {
+  position: absolute;
+  right: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.block a {
+  display: block;
+  margin-top: 5px;
+}
+
+.search-product {
+  color: #00ccbe;
+}
+
+.input-product[type=text],
+.input-product[type=text]:focus {
+  border: 1px solid lightgrey;
+  width: inherit;
+}
+
+.buy-button.button {
+  background-color: #00ccbe;
+}
+
+.buy-button.button:hover {
+  background-color: #00bcac;
+}
+
+.add-to-cart {
+  color: #00ccbe;
+}
+
+.add-to-cart:hover {
+  color: #00bcac;
+}
+
+.price {
+  font-size: 27px;
+}
+/*product details*/
+.product-details-container {
+  text-align: center;
+}
+
+.product-details {
+  text-align: left;
+}
+
+.main-image {
+  margin: 20px;
+}
+
+.product-images {
+  display: flex;
+}
+
+.thumbnails {
+  display: inline-block;
+
+}
+.thumbnails img {
+  display: block;
+  clear: both;
+  margin-top: 20px
+}
+
+@media screen and (max-width: 640px) {
+  .side-panel {
+    display: none;
+  }
+  .specifications {
+    max-width: 50%;
+  }
+  aside {
+    height: 100%;
+  }
+}

@@ -1,0 +1,6 @@
+ <div ng-controller="CategoryListCtrl">
+   <div ng-repeat="category in categories | filter:query" class="medium-4 small-6 columns category-container">
+    <h4 class="category-title">{{category.name}}</h4>
+    <a href="#/categories/{{category.id}}"><img class="category-thumb" ng-src="{{category.img}}" alt=""></a>
+  </div>
+</div>

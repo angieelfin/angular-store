@@ -1,0 +1,30 @@
+[ 
+  {
+   "id": "apple-133-laptop",
+   "title": "Apple - MacBook Air® (Latest Model) - 13.3' Display - Intel Core i5 - 4GB Memory - 128GB Flash Storage - Silver",
+   "image": "images/laptops/1.jpg",
+   "specs": [
+    {
+      "system": "Mac OS X",
+      "details": "5th Gen Intel® Core™ i5 processor; 13.3' display; 4GB memory; 128GB flash storage ",
+      "features": "Note: DVD/CD drive not included"
+    }
+   ],
+   "price": "899.99",
+   "age": "2"
+  },
+  {
+   "id": "hp-156-laptop",
+   "title": "HP - 15.6' Laptop - AMD A6-Series - 4GB Memory - 500GB Hard Drive - Black",
+   "image": "images/laptops/2.jpg",
+   "specs": [
+    {
+      "system": "Windows 10 Home 64bit",
+      "details": "echnical details: AMD A6-Series processor; 15.6' display; 4GB memory; 500GB hard drive",
+      "features": "Special features: HDMI output"
+    }
+   ],
+   "price": "279.99",
+   "age": "1"
+  }
+]

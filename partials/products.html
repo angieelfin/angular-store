@@ -1,0 +1,28 @@
+<div ng-controller="CategoryCtrl">
+  <p>Category: {{categoryId}}</p>
+  Sort by: 
+  <select class="select-product" ng-model="orderProp">
+    <option value="title">Alphabetical</option>
+    <option value="age">Newest</option>
+  </select>
+  <div class="search-box">
+    <span class="icon-search-1 search-product"></span>
+    <input ng-model="query" class="search-input input-product" type="text" placeholder="search product...">
+  </div>
+  <div class="product-container" ng-repeat="product in products | filter:query | orderBy:orderProp">
+    <a href="#/categories/{{categoryId}}/{{product.id}}"><img class="product-thumb" ng-src="{{product.image}}" alt=""></a>
+    <div class="description">
+      <a href="" class="product-title">{{product.title}}</a>
+      <ul class="specifications">
+        <li>{{product.specs[0].system}}</li>
+        <li>{{product.specs[0].details}}</li>
+        <li>{{product.specs[0].features}}</li>
+      </ul>
+    </div>
+    <div class="block">
+      <div class="price">{{product.price | currency}}</div>
+      <a href="" class="button buy-button">buy now!</a>
+      <a class="add-to-cart" href=""><span class="icon-basket"><span/>Add to cart</a>
+    </div>
+  </div>
+</div>

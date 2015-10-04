@@ -1,0 +1,30 @@
+[ 
+  {
+   "id": "sony-playstation-4",
+   "title": "Sony - PlayStation 4 500GB The Last of Us Remastered Bundle - Black",
+   "image": "images/gameconsoles/1.jpg",
+   "specs": [
+    {
+      "system": "PlayStation 4 500GB console (Model CUH-1215A)",
+      "details": "DUALSHOCK 4 controller",
+      "features": "Mono headset"
+    }
+   ],
+   "price": "399.99",
+   "age": "1"
+  },
+    {
+   "id": "microsoft-xbox-one",
+   "title": "Microsoft - Xbox One Limited Edition Forza Motorsport 6 Bundle - Blue",
+   "image": "images/gameconsoles/2.jpg",
+   "specs": [
+    {
+      "system": "Racing inspired custom 1TB console with unique sound effects",
+      "details": "Special edition Xbox One Wireless Controller with rubberized diamond grip",
+      "features": "Full-game downloads of Forza Motorsport 6, Tenth Anniversary Car Pack"
+    }
+   ],
+   "price": "399.99",
+   "age": "2"
+  }
+]

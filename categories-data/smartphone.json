@@ -1,0 +1,72 @@
+[ 
+  {
+   "id": "apple-iphone-6",
+   "title": "Apple - iPhone 6 16GB - Space Gray (Verizon Wireless)",
+   "image": "images/smartphones/1.jpg",
+   "specs": [
+    {
+      "system": "iOS and iCloud",
+      "details": "4.7-inch Retina HD display",
+      "features": "Touch ID fingerprint identity sensor"
+    }
+   ],
+   "price": "99.99",
+   "age": "3"
+  },
+  {
+   "id": "samsung-galnote-5",
+   "title": "Samsung - Galaxy Note5 4G LTE with 32GB Memory Cell Phone - Black Sapphire (Verizon Wireless)",
+   "image": "images/smartphones/2.jpg",
+   "specs": [
+    {
+      "system": "Android 5.1.1 Lollipop",
+      "details": "5.7' Super AMOLED touch screen",
+      "features": "4G LTE"
+    }
+   ],
+   "price": "99.99",
+   "age": "2"
+  },
+  {
+   "id": "apple-iphone-6-gold",
+   "title": "Apple - iPhone 6 16GB - Gold (Sprint)",
+   "image": "images/smartphones/3.jpg",
+   "specs": [
+    {
+      "system": "iOS and iCloud",
+      "details": "A8 chip with 64-bit desktop-class architecture",
+      "features": "Touch ID fingerprint identity sensor"
+    }
+   ],
+   "price": "269.99",
+   "age": "1"
+  },
+  {
+   "id": "lg-g4-gray",
+   "title": "LG - G4 Cell Phone - Metallic Gray (Sprint)",
+   "image": "images/tablets/4.jpg",
+   "specs": [
+    {
+      "system": "Android 5.1 Lollipop operating system",
+      "details": "Qualcomm Snapdragon 808 1.8GHz processor",
+      "features": "4G speed"
+    }
+   ],
+   "price": "99.99",
+   "age": "4"
+  },
+  {
+   "id": "samsung-galnote-5-white",
+   "title": "Samsung - Galaxy Note5 4G LTE with 32GB Memory Cell Phone - White Pearl (Verizon Wireless)",
+   "image": "images/smartphones/5.jpg",
+   "specs": [
+    {
+      "system": "Android 5.1.1 Lollipop",
+      "details": "5.7' Super AMOLED touch screen",
+      "features": "4G LTE"
+    }
+   ],
+   "price": "249.99",
+   "age": "5"
+  }
+]
